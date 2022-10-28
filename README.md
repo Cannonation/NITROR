@@ -1,4 +1,4 @@
-# DNRipper
+# NitroR
 
  1. python required
  2. unlike other tools NITROR will save potentaly valid codes in the .txt file
