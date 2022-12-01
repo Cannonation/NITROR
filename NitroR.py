@@ -139,7 +139,7 @@ Results:
 
             print(f" Valid | {nitro} ", flush=True,
                   end="" if os.name == 'nt' else "\n")
-            with open("Nitro Codes.txt", "w") as file: 
+            with open("Nitro Codes.txt", "w", encoding="utf8") as file: 
 
                 file.write(nitro)
             if notify is not None:  
