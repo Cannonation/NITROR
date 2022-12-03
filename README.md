@@ -6,9 +6,10 @@
  
  # Usage 
  
- 1. cd to directory 
- 2. pip install -r requirements.txt
- 3. python NitroR.py
+ 1. open terminal as administrator
+ 2. cd to directory 
+ 3. pip install -r requirements.txt
+ 4. python NitroR.py
  
    
  
